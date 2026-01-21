@@ -52,14 +52,14 @@ These 3 contributions are **already implemented and tested** on GTX 1650 Ti (4GB
 
 ---
 
-### 🔄 Remaining Contributions (Students 2 & 3)
+### ✅ Completed Contributions (Students 2 )
 
 These 6 contributions are **planned** and require cloud GPUs (16-32 GB VRAM):
 
 #### **Student 2: Retrieval System and Knowledge Integration**
 
 ##### **Contribution 2.1: Dense Passage Retrieval with Cross-Modal Embeddings** 🔄
-- **Status:** 🔄 PLANNED
+- **Status:** ✅ IMPLEMENTED
 - **What to Implement:**
   - Replace KL-divergence retrieval with dense passage retrieval (DPR)
   - Use BiomedCLIP for cross-modal image-text embeddings
@@ -69,7 +69,7 @@ These 6 contributions are **planned** and require cloud GPUs (16-32 GB VRAM):
 - **Requirements:** 16 GB VRAM (Google Colab/Kaggle)
 
 ##### **Contribution 2.2: Attention-Based Knowledge Fusion** 🔄
-- **Status:** 🔄 PLANNED
+- **Status:** ✅ IMPLEMENTED
 - **What to Implement:**
   - Cross-attention module between PF and SF
   - Learnable gating mechanism for knowledge weighting
@@ -79,7 +79,7 @@ These 6 contributions are **planned** and require cloud GPUs (16-32 GB VRAM):
 - **Requirements:** 24 GB VRAM (Colab Pro/University cluster)
 
 ##### **Contribution 2.3: Iterative Retrieval-Augmented Generation** 🔄
-- **Status:** 🔄 PLANNED
+- **Status:**✅ IMPLEMENTED
 - **What to Implement:**
   - Multi-round retrieval based on initial generation
   - Missing observation detection
@@ -160,9 +160,9 @@ python evaluate_expert_models.py --model_type uncertainty --checkpoint ./checkpo
 | **1.1** | Uncertainty-Aware Expert Model | ✅ Done | 1 | 4 GB | High |
 | **1.2** | Hierarchical Multi-Label (GNN) | ✅ Done | 1 | 4 GB | High |
 | **1.3** | Contrastive Pre-training | ✅ Done | 1 | 4 GB | Medium-High |
-| **2.1** | Dense Passage Retrieval | 🔄 Planned | 2 | 16 GB | High |
-| **2.2** | Attention-Based Fusion | 🔄 Planned | 2 | 24 GB | High |
-| **2.3** | Iterative RAG | 🔄 Planned | 2 | 16 GB | High |
+| **2.1** | Dense Passage Retrieval | ✅ Done  | 2 | 16 GB | High |
+| **2.2** | Attention-Based Fusion | ✅ Done  | 2 | 24 GB | High |
+| **2.3** | Iterative RAG | ✅ Done  | 2 | 16 GB | High |
 | **3.1** | Temporal Modeling | 🔄 Planned | 3 | 24 GB | High |
 | **3.2** | Multi-Task Learning | 🔄 Planned | 3 | 32 GB | Medium-High |
 | **3.3** | Hallucination Detection | 🔄 Planned | 3 | 16 GB | Very High |
