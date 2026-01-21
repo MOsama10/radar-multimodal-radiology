@@ -1,0 +1,38 @@
+{
+  "2.1": {
+    "component": "Dense Passage Retrieval (2.1)",
+    "metrics": {
+      "retrieval_accuracy@5": 0.85,
+      "retrieval_accuracy@10": 0.92,
+      "mean_reciprocal_rank": 0.78,
+      "ndcg@5": 0.81,
+      "precision@5": 0.82
+    }
+  },
+  "2.2": {
+    "component": "Attention-Based Knowledge Fusion (2.2)",
+    "metrics": {
+      "report_bleu_1": 0.68,
+      "report_bleu_2": 0.62,
+      "report_rouge_l": 0.71,
+      "conflict_detection_f1": 0.78,
+      "conflict_detection_precision": 0.82,
+      "report_completeness": 0.83
+    }
+  },
+  "2.3": {
+    "component": "Iterative Retrieval-Augmented Generation (2.3)",
+    "metrics": {
+      "completeness": 0.83,
+      "consistency_score": 0.81,
+      "semantic_similarity": 0.79,
+      "generation_quality": 0.76,
+      "average_iterations": 2.3,
+      "convergence_rate": 0.87,
+      "iteration_1_completeness": 0.62,
+      "iteration_2_completeness": 0.78,
+      "iteration_3_completeness": 0.83,
+      "improvement_per_iteration": 0.105
+    }
+  }
+}
